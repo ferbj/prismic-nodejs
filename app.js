@@ -45,7 +45,7 @@ app.get('/home', (req,res) => {
       req.prismic.api.query(
         Prismic.Predicates.at('document.type','page'),queryOptions)
       .then((response) => {
-        let data = response.data;
+        let data = response;
         console.log(data)
         res.render('home', {items: response.results });
 
