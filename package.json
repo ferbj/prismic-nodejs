@@ -10,26 +10,26 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
-    "debug": "~3.1.0",
+    "debug": "~4.1.1",
     "errorhandler": "^1.5.1",
     "express": "^4.17.1",
-    "method-override": "~2.3.10",
+    "method-override": "~3.0.0",
     "morgan": "^1.9.1",
     "prismic-dom": "^2.1.0",
-    "prismic-javascript": "~1.4.0",
+    "prismic-javascript": "~2.1.1",
     "pug": "^2.0.4",
-    "request": "~2.83.0",
-    "serve-favicon": "~2.4.3"
+    "request": "~2.88.0",
+    "serve-favicon": "~2.5.0"
   },
   "repository": {
     "type": "git",
     "url": "http://github.com/prismicio/nodejs-sdk.git"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "~4.8.0",
-    "eslint-config-airbnb-base": "~12.0.1",
-    "eslint-plugin-import": "~2.7.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "~6.3.0",
+    "eslint-config-airbnb-base": "~14.0.0",
+    "eslint-plugin-import": "~2.18.2",
     "nodemon": "^1.19.1"
   },
   "engines": {
