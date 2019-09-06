@@ -1,0 +1,12 @@
+extends ./layout.pug
+
+//- Create a block
+block body
+  div
+    
+    //- This is how to get a Rich Text into your template
+    != PrismicDOM.RichText.asHtml(document.data.title, ctx.linkResolver)
+    != PrismicDOM.RichText.asHtml(document.data.description, ctx.linkResolver)
+
+    //- This is how to get an Image into your template
+    img(src=document.data.image.url)
