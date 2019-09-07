@@ -1,8 +1,8 @@
 extends ./layout.pug
 //- Create a block
 block body
-	div
+	div.text-center
 		for item in items
 			!= PrismicDOM.RichText.asHtml(item.data.title)
 			!= PrismicDOM.RichText.asHtml(item.data.description)
-			img(src=item.data.image.url)
+			img.img-responsive(src=item.data.image.url)

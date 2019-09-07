@@ -40,6 +40,7 @@ app.get('/home', (req,res) => {
       if(home){
         var queryOptions = {
           page: req.params.p || '1',
+          orderings: '[document.first_publication_date]'
         };
 
       req.prismic.api.query(
